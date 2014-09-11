@@ -5,6 +5,7 @@ from std_msgs.msg import String, Header
 from std_srvs.srv import *
 from sensor_msgs.msg import NavSatFix, NavSatStatus, Imu
 import roscopter.msg
+from roscopter.srv import *
 import sys,struct,time,os
 
 # Auto Pilot modes
